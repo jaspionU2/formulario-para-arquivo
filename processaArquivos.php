@@ -5,9 +5,6 @@ $nome = false;
 
 
 if (empty($nomeArquivo)) {
-    echo '<div class="alert alert-danger" role="alert">';
-    echo 'Por favor, preencha o campo!';
-    echo '</div>';
     exit();
 } else {
     $nome = true;
@@ -82,10 +79,6 @@ if (!$checkMarca) {
 </head>
 
 <body>
-
-<?php 
-
-?>
 
      <div class="container">
 

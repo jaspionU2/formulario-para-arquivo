@@ -38,7 +38,7 @@ $nome = false;
 if (empty($nomeArquivo)) {
     echo  '<div class="container">';
     echo '<div class="arquivo-erro alert alert-warning" role="alert">';
-    echo  '<p>Arquivo gravado com sucesso!</p> <a href="index.html" class="alert-link">Voltar para a tela principal</a>.';
+    echo  '<p>ERRO: Você deve preencher os campos com algum texto!</p> <a href="index.html" class="alert-link">Voltar para a tela principal</a>.';
     echo  '</div>';
     echo  '</div>';
     exit();
@@ -53,7 +53,7 @@ $conteudo = false;
 if (empty($conteudoArquivo)) {
     echo  '<div class="container">';
       echo '<div class="arquivo-erro alert alert-warning" role="alert">';
-      echo  '<p>Arquivo gravado com sucesso!</p> <a href="index.html" class="alert-link">Voltar para a tela principal</a>.';
+      echo  '<p>ERRO: Você deve preencher os campos com algum texto!</p> <a href="index.html" class="alert-link">Voltar para a tela principal</a>.';
       echo  '</div>';
       echo  '</div>';
     exit();

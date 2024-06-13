@@ -1,0 +1,8 @@
+- testando criação de arquivo;
+
+-fazendo lista de compras:
+ .banana
+.maça
+.uva
+.pera
+.morango; 
